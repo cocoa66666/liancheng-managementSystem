@@ -6,13 +6,13 @@
            :model="loginForm"
            label-width="0">
     <el-form-item v-if="tenantMode" prop="tenantId">
-      <el-input size="small"
+      <!-- <el-input size="small"
                 @keyup.enter.native="handleLogin"
                 v-model="loginForm.tenantId"
                 auto-complete="off"
                 :placeholder="$t('login.tenantId')">
         <i slot="prefix" class="icon-quanxian"/>
-      </el-input>
+      </el-input> -->
     </el-form-item>
     <el-form-item prop="username">
       <el-input size="small"

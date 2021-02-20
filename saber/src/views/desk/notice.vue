@@ -98,9 +98,9 @@
             {
               label: "通知时间",
               prop: "releaseTimeRange",
-              type: "datetime",
-              format: "yyyy-MM-dd hh:mm:ss",
-              valueFormat: "yyyy-MM-dd hh:mm:ss",
+              type: "datetimerange",
+              format: "yyyy-MM-dd HH:mm:ss",
+              valueFormat: "yyyy-MM-dd HH:mm:ss",
               searchRange:true,
               hide: true,
               addDisplay: false,
